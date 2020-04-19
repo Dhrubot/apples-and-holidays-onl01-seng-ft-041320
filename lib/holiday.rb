@@ -70,18 +70,7 @@ def all_supplies_in_holidays(holiday_hash)
       season_str = season.to_s.capitalize!
       holiday_name_str = holiday_name.to_s.split("_").map {|word| word.capitalize}.join(" ")
       supply = supplies.join(", ")
-            @output = <<-TEXT
-season_str:
-  Christmas: Lights, Wreath
-  New Years: Party Hats
-Summer:
-  Fourth Of July: Fireworks, BBQ
-Fall:
-  Thanksgiving: Turkey
-Spring:
-  Memorial Day: BBQ
-TEXT
-    end
+      puts 
     end
   end
 end
