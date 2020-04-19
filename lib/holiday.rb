@@ -83,6 +83,7 @@ def all_holidays_with_bbq(holiday_hash)
     holidays.each do |holiday_name, supplies|
       if supplies.include?("BBQ")
         symb_arr << holiday_name
+      end
     end
   end
   symb_arr
