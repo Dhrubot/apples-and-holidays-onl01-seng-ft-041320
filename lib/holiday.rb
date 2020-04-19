@@ -71,7 +71,7 @@ def all_supplies_in_holidays(holiday_hash)
       holidays_str = holidays.to_s
       holiday_name_str = holiday_name.to_s.split("_")
       holiday_name_capitalized = holiday_name.map {|word| word.capitalize}.join
-      supplies.
+      supplies.each {|supply| 
     end
   end
 end
