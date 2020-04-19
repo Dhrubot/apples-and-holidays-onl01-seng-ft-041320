@@ -70,7 +70,7 @@ def all_supplies_in_holidays(holiday_hash)
       season_str = season.to_s
       holidays_str = holidays.to_s
       holiday_name = holiday_name.to_s
-      holiday_name.split("_").capitalize!
+      holiday_name.
     end
   end
 end
